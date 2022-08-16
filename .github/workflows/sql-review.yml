@@ -14,4 +14,4 @@ jobs:
           override-file-path: bb.sql-review.dev.yml
          # template-id: "bb.sql-review.dev"
           database-type: MYSQL 
-          file-pattern: ^test-github-action/.*\.sql$
+          file-pattern: /^test-github-action/.*\.sql$
